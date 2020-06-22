@@ -2,9 +2,9 @@ package Mail;
 
 public  class Sendable<T> {
 
-    private String from;
-    private String to;
-    private T content;
+    protected String from;
+    protected String to;
+    protected T content;
 
     public String getFrom() {
         return from;

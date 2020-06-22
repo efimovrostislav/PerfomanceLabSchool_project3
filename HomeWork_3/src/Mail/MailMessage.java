@@ -2,9 +2,6 @@ package Mail;
 
 public class MailMessage extends Sendable<String> {
 
-    private String from;
-    private String to;
-    private String content;
 
     public MailMessage(String from, String to, String content) {
         super(from, to, content);
